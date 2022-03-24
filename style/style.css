@@ -146,6 +146,63 @@ body
         float: left;        
       }
 
+    .TitleSection
+    {
+        text-align: center;
+        width: 30%;
+    }
+
+    .Title1 {
+        font-size: 32px;
+    }
+
+    .Title2 {
+        font-size: 32px;
+        font-weight: bold;
+    }
+
+    .MainContentWrapper
+    {
+        position: relative;
+        display: block;
+        height: 600px;
+        width: 1000px;        
+    }
+
+    .Card
+    {
+        height: 300px;
+        width: 300px;
+        margin: 0;
+        position: absolute;        
+    }
+
+    .SupervisorCard
+    {      
+        left:0px;
+        top:150px;
+    }
+
+    .TeamBuilderCard
+    {   
+        top: 0px;
+        left: 350px;
+    }
+
+    .KarmaCard
+    {   
+        left: 350px;
+        top: 350px;
+    }
+
+    .CalculatorCard
+    {    
+        right: 0px;
+        top: 150px;
+    }
+
+
+
 }
   
 @media only screen and (min-width: 1000px)
